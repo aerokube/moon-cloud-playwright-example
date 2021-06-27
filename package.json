@@ -1,0 +1,16 @@
+{
+  "name": "moon-cloud-playwright-example",
+  "version": "1.0.0",
+  "description": "Moon Cloud Playwright Example",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:aerokube/moon-cloud-playwright-example.git"
+  },
+  "scripts": {
+    "test": "node index.js"
+  },
+  "dependencies": {
+    "playwright": "1.12.2"
+  }
+}
