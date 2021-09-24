@@ -11,6 +11,6 @@
     "test": "node index.js"
   },
   "dependencies": {
-    "playwright": "1.12.2"
+    "playwright": "1.15.0"
   }
 }
