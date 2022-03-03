@@ -7,7 +7,7 @@ const username = 'my-company';
 const password = 'some-password';
 
 (async () => {
-    const browser = await firefox.connect({ timeout: 0, wsEndpoint: `wss://${username}:${password}@${host}/playwright/webkit/playwright-1.19.2?headless=false&enableVideo=true&videoName=mytestvideo.mp4` });
+    const browser = await firefox.connect({ timeout: 0, wsEndpoint: `wss://${username}:${password}@${host}/playwright/firefox/playwright-1.19.2?headless=false&enableVideo=true&videoName=mytestvideo.mp4` });
     const page = await browser.newPage();
     await page.goto('https://aerokube.com/moon/');
     await page.screenshot({ path: `screenshot.png` });
